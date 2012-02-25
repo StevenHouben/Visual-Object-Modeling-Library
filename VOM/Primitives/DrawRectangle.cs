@@ -13,7 +13,7 @@ using System.Linq;
 using System.Text;
 using System.Drawing;
 
-namespace VOM
+namespace VOM.Primitives
 {
     public class DrawRectangle{
         private Point startPoint;

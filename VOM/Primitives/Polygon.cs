@@ -14,7 +14,7 @@ using System.Text;
 using System.Drawing;
 using System.ComponentModel;
 
-namespace VOM
+namespace VOM.Primitives
 {
     public class Polygon:IRenderable
     {

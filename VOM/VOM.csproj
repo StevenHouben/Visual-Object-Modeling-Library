@@ -65,15 +65,10 @@
       <RequiredTargetFramework>3.5</RequiredTargetFramework>
     </Reference>
     <Reference Include="System.Data" />
-    <Reference Include="System.Deployment" />
     <Reference Include="System.Drawing" />
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="DrawRectangle.cs" />
-    <Compile Include="IRenderable.cs" />
-    <Compile Include="Enums.cs" />
-    <Compile Include="Polygon.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -94,12 +89,16 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
-    <Compile Include="Range.cs" />
-    <Compile Include="Canvas.cs">
+    <Compile Include="Components\Canvas.cs">
       <SubType>Component</SubType>
     </Compile>
-    <Compile Include="Renderer.cs" />
-    <Compile Include="Settings.cs" />
+    <Compile Include="Primitives\DrawRectangle.cs" />
+    <Compile Include="Primitives\IRenderable.cs" />
+    <Compile Include="Primitives\Polygon.cs" />
+    <Compile Include="Primitives\Range.cs" />
+    <Compile Include="Components\Renderer.cs" />
+    <Compile Include="Components\Settings.cs" />
+    <Compile Include="Enums.cs" />
   </ItemGroup>
   <ItemGroup>
     <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
@@ -126,4 +125,8 @@
   <Target Name="AfterBuild">
   </Target>
   -->
+  <ItemGroup>
+    <Folder Include="Components\" />
+    <Folder Include="Primitives\" />
+  </ItemGroup>
 </Project>

@@ -1,4 +1,4 @@
-﻿using VOM;
+﻿using VOM.Components;
 namespace TestApplication
 {
     partial class Form1
@@ -29,13 +29,13 @@ namespace TestApplication
         /// </summary>
         private void InitializeComponent()
         {
-            VOM.Settings settings2 = new VOM.Settings();
+            VOM.Components.Settings settings2 = new VOM.Components.Settings();
             this.toolStrip1 = new System.Windows.Forms.ToolStrip();
             this.toolStripButton1 = new System.Windows.Forms.ToolStripButton();
             this.container = new System.Windows.Forms.Panel();
             this.btnColor = new System.Windows.Forms.Button();
             this.propertyGridMain = new System.Windows.Forms.PropertyGrid();
-            this.canvas1 = new VOM.Canvas();
+            this.canvas1 = new VOM.Components.Canvas();
             this.propertyGrid1 = new System.Windows.Forms.PropertyGrid();
             this.toolStrip1.SuspendLayout();
             this.container.SuspendLayout();

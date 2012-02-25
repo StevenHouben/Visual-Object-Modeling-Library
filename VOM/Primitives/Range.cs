@@ -6,25 +6,28 @@
 /// published by the Free Software Foundation. Check 
 /// http://www.gnu.org/licenses/gpl.html for details.
 /// </Licence>
-
+/// 
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Drawing;
 
-namespace VOM
+namespace VOM.Primitives
 {
-    public interface IRenderable
+    public class Range
     {
-        Point[] Corners { get; set; }
-        Color FillColor { get; set; }
-        int Alpha { get; set; }
-        bool IsSelected { get; set; }
-        Point DragPoint { get; set; }
-        string Name { get; set; }
-        int Tag { get; set; }
-        int SelectedCorner { get; set; }
-        Type Type { get; set; }
+        public int Min { get; set; }
+        public int Max { get; set; }
+        public int Difference
+        {
+            get { return Max - Min; }
+        }
+        public Range() { }
+        public Range(int min, int max)
+        {
+            Min = min;
+            Max = max;
+        }
     }
 }

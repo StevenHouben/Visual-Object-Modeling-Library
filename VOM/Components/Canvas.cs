@@ -16,7 +16,9 @@ using System.Windows.Forms;
 using System.ComponentModel;
 using System.Drawing.Drawing2D;
 
-namespace VOM
+using VOM.Primitives;
+
+namespace VOM.Components
 {
     [ToolboxItem(true)]
     public class Canvas : Panel

@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VOM", "VOM\VOM.csproj", "{CAA623B4-749A-4ECD-BEA9-F8BFC47324B3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestApplication", "Application\TestApplication.csproj", "{2DCED7C0-BA5A-46BC-A3CC-A72E6EA015A9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2DCED7C0-BA5A-46BC-A3CC-A72E6EA015A9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2DCED7C0-BA5A-46BC-A3CC-A72E6EA015A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2DCED7C0-BA5A-46BC-A3CC-A72E6EA015A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2DCED7C0-BA5A-46BC-A3CC-A72E6EA015A9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CAA623B4-749A-4ECD-BEA9-F8BFC47324B3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CAA623B4-749A-4ECD-BEA9-F8BFC47324B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CAA623B4-749A-4ECD-BEA9-F8BFC47324B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CAA623B4-749A-4ECD-BEA9-F8BFC47324B3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = Application\TestApplication.csproj
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
